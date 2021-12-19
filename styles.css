@@ -1,0 +1,74 @@
+body {
+    background-color: #001F3F;
+    color: #7FDBFF;
+}
+
+div {
+    margin: 30px;
+}
+
+a {
+    color: #CDBC67;
+}
+
+a:hover {
+    color: rgb(221, 59, 113);
+}
+
+select {
+    color: #7FDBFF;
+    background-color: #001F3F;
+    border-color: rgb(255,255,255);
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+span {
+    font-size: xx-large;
+    color: peachpuff;
+}
+
+i {
+    font-size: large;
+}
+
+.timeOption {
+    font-weight: 30;
+    height: 37px;
+    width: 135px;
+    font-size: large;
+    margin: 0 15px;
+    padding: 0px 15px;
+}
+
+select:focus {
+    border-color: #33C3F0
+}
+
+.homepageGuide {
+    font-size: 145%;
+    font-weight: 30;
+    font-family: Raleway;
+    color: #7FDBFF;
+}
+
+.calculateBtn:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.calculateBtn {
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: #222B5F;
+    height: 38px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Raleway;
+}
+
+#advice {
+    font-size: xx-large;
+    color: darkseagreen;
+}
