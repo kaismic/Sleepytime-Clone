@@ -1,3 +1,3 @@
 # Sleeptime Clone
 
-## Clone (maybe better) website of https://sleepyti.me/
+## Cloned (maybe better) website of https://sleepyti.me/
