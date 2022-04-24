@@ -1,6 +1,7 @@
 body {
     background-color: #001F3F;
     color: #7FDBFF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div {
@@ -43,13 +44,6 @@ i {
 
 select:focus {
     border-color: #33C3F0
-}
-
-.homepageGuide {
-    font-size: 145%;
-    font-weight: 30;
-    font-family: Raleway;
-    color: #7FDBFF;
 }
 
 .calculateBtn:hover {

@@ -1,6 +1,9 @@
 # Sleeptime Clone
 
-## Cloned (maybe better) website of https://sleepyti.me/
+## [Link](https://soobakjonmat.github.io/Sleepytime-Clone/)
 
 ## Preview
 <image src="images/preview1.png">
+
+## Description
+Cloned (probably better) website of https://sleepyti.me/

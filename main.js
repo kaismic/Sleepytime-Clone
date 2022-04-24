@@ -5,15 +5,15 @@ class Main {
 
         this.calChoice = document.getElementById("calChoice")
         this.calChoice.addEventListener("change", this.hideOptions.bind(this))
-        
+
         this.timeOptions = document.getElementById("timeOptions")
         this.hourOption = document.getElementById("hourOption")
         this.minuteOption = document.getElementById("minuteOption")
         this.AMPMOption = document.getElementById("AMPMOption")
-        
+
         this.calculateBtn = document.getElementById("calculateBtn")
         this.calculateBtn.addEventListener("click", this.showResultPage.bind(this))
-        
+
         // result page elements
         this.resultPage = document.getElementById("resultPage")
         this.resultPage.style.display = "none"
@@ -47,7 +47,7 @@ class Main {
             this.timeOptions.style.display = "none"
         }
     }
-        
+
     showResultPage() {
         if (this.calChoice.selectedIndex == 0) { // have to wake up at
             this.showHaveToWakeUpAtResult()
@@ -59,7 +59,7 @@ class Main {
         this.homepage.style.display = "none"
         this.resultPage.style.display = "block"
     }
-    
+
     showHomepage() {
         this.homepage.style.display = "block"
         this.resultPage.style.display = "none"
@@ -84,7 +84,7 @@ class Main {
             minute = "0" + minute
         }
         let AMPM = this.AMPMOption.value
-    
+
         this.advice.innerText = `If you fall asleep at ${hour}:${minute} ${AMPM}, you should try to wake up at one of the following times:`
         let resultText = ""
         for (let i = 0; i < 6; i++) {
@@ -96,7 +96,7 @@ class Main {
         this.result.innerHTML = resultText
     }
 
-    
+
     showSleepNowResult() {
         this.advice.innerText = "If you head to bed right now, you should try to wake up at one of the following times:"
         let resultText = ""
@@ -129,7 +129,7 @@ class Main {
         } else if (resultInMinute > 1440) {
             resultInMinute = (resultInMinute % 1440)
         }
-        
+
         let result = ""
         if (resultInMinute < 720) {
             result = Math.floor(resultInMinute / 60) + ":" + (resultInMinute % 60) + "AM"
